@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Navbar */
+nav {
+  background: #111;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00d4ff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('https://images.unsplash.com/photo-1606788075761-8f5f8a8d1f1c') no-repeat center/cover;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+/* Section */
+section {
+  padding: 30px;
+}
+
+/* Tables */
+table {
+  width: 75%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+th {
+  background: #2a5298;
+  color: white;
+}
+
+th, td {
+  padding: 14px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #1e3c72;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 16px;
+  border-radius: 50%;
+  font-size: 22px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
